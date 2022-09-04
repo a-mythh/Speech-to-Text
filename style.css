@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.talk {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    padding: 2px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 30%;
+    border: none;
+    background: #03dac5;
+    color: white;
+    box-shadow: 0px 0px 7px 2px #58d9df;
+}
+
+.talk:hover {
+    cursor: pointer;
+    background-color: #05cfbb;
+}
+
+.talk:active {
+    transform: translateY(3px);
+}
+
+.talk img {
+    width: 40px;
+}
+
+.content {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 30px auto;
+    border: none;
+    padding: 40px;
+    width: 350px;
+    border-radius: 30px;
+    background: #03dac5;
+    color: #018786;
+    box-shadow: 0px 0px 7px 2px #58d9df;
+}
